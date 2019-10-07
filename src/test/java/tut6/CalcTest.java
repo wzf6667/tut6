@@ -25,7 +25,7 @@ class CalcTest {
 		
 	}
 	@Test
-	void test4() {
+	void test3() {
 	    int result = Calc.time(2,1);
         Assert.assertEquals(1, result);
 		
