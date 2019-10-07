@@ -18,5 +18,17 @@ class CalcTest {
         Assert.assertEquals(3, result);
 		
 	}
+	@Test
+	void test2() {
+	    int result = Calc.subtract(2,1);
+        Assert.assertEquals(1, result);
+		
+	}
+	@Test
+	void test3() {
+	    int result = Calc.time(2,1);
+        Assert.assertEquals(2, result);
+		
+	}
 
 }
